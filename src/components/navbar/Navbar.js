@@ -2,12 +2,12 @@ import React, { useState } from 'react'
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-import {logo} from "../../assets/index"
+import { logo } from "../../assets/index"
 import { navLinksdata } from '../../constants';
 import Media from '../banner/Media';
 
 const Navbar = () => {
-  const [showMenu, setShowMenu]=useState(false)
+  const [showMenu, setShowMenu] = useState(false)
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
       <div>
@@ -45,9 +45,7 @@ const Navbar = () => {
               <div>
                 <img className="w-32" src={logo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat, magnam
-                  exercitationem distinctio aliquid nam.
+                  I am a Certified Software Engineer specializing in full-stack development. With expertise in Angular, Vue, Node.js, React.js, JavaScript, and TypeScript, I deliver robust, high-quality solutions. Proficient in Agile methodologies like Scrum, I thrive in collaborative workflows, solving complex problems, and creating seamless user experiences.
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
